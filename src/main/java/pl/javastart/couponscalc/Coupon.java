@@ -10,6 +10,11 @@ public class Coupon {
         this.discountValueInPercents = discountValueInPercents;
     }
 
+    public Coupon(int discountValueInPercents) {
+        this.discountValueInPercents = discountValueInPercents;
+        category = null;
+    }
+
     public Category getCategory() {
         return category;
     }
